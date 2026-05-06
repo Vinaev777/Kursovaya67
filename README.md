@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+Начало работы с Create React App
+Этот проект был создан с помощью Create React App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Доступные скрипты
+В директории проекта вы можете выполнять следующие команды:
 
-## Available Scripts
+npm start
+Запускает приложение в режиме разработки.
+Откройте http://localhost:3000, чтобы посмотреть его в браузере.
 
-In the project directory, you can run:
+Страница будет автоматически перезагружаться при внесении изменений.
+Также в консоли вы увидите ошибки линтинга (если они будут).
 
-### `npm start`
+npm test
+Запускает тестовый runner в интерактивном режиме с автоматическим перезапуском.
+Подробнее в разделе о запуске тестов.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npm run build
+Собирает приложение для production в папку build.
+Корректно объединяет React в production-режиме и оптимизирует сборку для лучшей производительности.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Сборка минифицирована, а имена файлов содержат хеши (для управления кэшированием).
+Ваше приложение готово к развёртыванию!
 
-### `npm test`
+Подробнее в разделе о развёртывании.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run eject
+Внимание: это односторонняя операция. Выполнив eject, вы не сможете отменить её!
 
-### `npm run build`
+Если вас не устраивают настройки сборки и конфигурации по умолчанию, вы можете выполнить eject в любой момент. Эта команда удалит единственную зависимость сборки из вашего проекта.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Вместо этого она скопирует все конфигурационные файлы и транзитивные зависимости (webpack, Babel, ESLint и т.д.) прямо в ваш проект, чтобы вы получили полный контроль над ними. Все команды, кроме eject, продолжат работать, но будут указывать на скопированные скрипты, так что вы сможете настраивать их под себя. С этого момента вы действуете сами.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Вам не обязательно когда-либо использовать eject. Набора функций "из коробки" достаточно для небольших и средних проектов, и вы не обязаны использовать эту возможность. Однако мы понимаем, что этот инструмент был бы бесполезен, если бы вы не могли его настроить, когда будете к этому готовы.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Узнать больше
+Вы можете узнать больше в документации Create React App.
 
-### `npm run eject`
+Чтобы изучить React, обратитесь к официальной документации React.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
